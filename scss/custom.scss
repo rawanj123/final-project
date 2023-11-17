@@ -7,6 +7,16 @@ $secondary:     #FFBCE8;
 $light:         #FFE2F5;
 $dark:          #C03A9A;
 
+$h1-font-size: 4.052rem;
+$h2-font-size: 3.441rem;
+$h3-font-size: 1.953rem;
+$h4-font-size: 1.563rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$headings-font-family: 'Playfair Display', serif;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
