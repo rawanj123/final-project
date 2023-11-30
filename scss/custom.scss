@@ -20,3 +20,13 @@ $headings-font-family: 'Playfair Display', serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+.card {
+    height: 100%;
+}
+
+.card img {
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+}
