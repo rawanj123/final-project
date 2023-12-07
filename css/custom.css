@@ -11866,4 +11866,36 @@ textarea.form-control-lg {
   object-fit: cover;
 }
 
+.who-are-we-container {
+  gap: 20px;
+}
+
+.who-we-are-image img {
+  position: absolute;
+}
+
+.who-we-are-image {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.products-nav {
+  padding: 0;
+}
+
+.products-nav .nav {
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-one-col {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .who-we-are-image img {
+    position: relative;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */
