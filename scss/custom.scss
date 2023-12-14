@@ -5,7 +5,9 @@
 $primary:       #000000;
 $secondary:     #FFBCE8;
 $light:         #FFE2F5;
+$danger:        #999090;
 $dark:          #C03A9A;
+
 
 $h1-font-size: 4.052rem;
 $h2-font-size: 3.441rem;
@@ -20,6 +22,11 @@ $headings-font-family: 'Playfair Display', serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
 .carousel-caption {
     background-color: #FFE2F5;
     opacity: 70%;
