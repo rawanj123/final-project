@@ -20,6 +20,10 @@ $headings-font-family: 'Playfair Display', serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+.carousel-caption {
+    background-color: #FFE2F5;
+    opacity: 70%;
+}
 
 .card {
     height: 100%;
